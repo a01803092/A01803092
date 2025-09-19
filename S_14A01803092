@@ -1,0 +1,15 @@
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are not an adult")
+
+age = int(input("Enter your age: "))
+if age >= 13 and age <= 19:
+    print("you are a teenager") 
+else:
+    print("You are not a teenager")
+
+birth_year = int(input("In which year you were born?"))
+age = current_year - birth_year
+print ("you are ",age,"years old" )
